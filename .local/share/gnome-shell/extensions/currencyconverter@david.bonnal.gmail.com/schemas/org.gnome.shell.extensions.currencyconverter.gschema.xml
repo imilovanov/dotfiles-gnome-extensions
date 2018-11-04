@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+
+  <schema path="/org/gnome/shell/extensions/currencyconverter/" id="org.gnome.shell.extensions.currencyconverter">
+
+    <key type="s" name="favorite-currencies">
+        <default>'EUR,USD'</default>
+    </key>
+
+	<key type="s" name="api-key">
+        <default>''</default>
+    </key>
+
+    <key type="b" name="allow-custom-currencies">
+    	<default>false</default>
+    </key>
+
+    <key type="b" name="activate-auto-refresh">
+    	<default>false</default>
+    </key>
+
+    <key type="b" name="display-result-in-panel-menu">
+    	<default>false</default>
+    </key>
+
+    <key type="i" name="init-amount">
+        <default>0</default>
+    </key>
+
+    <key type="s" name="api-provider">
+        <default>'currencylayer'</default>
+    </key>
+
+  </schema>
+</schemalist>
